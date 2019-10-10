@@ -16,5 +16,5 @@ gulp 自动化构建工具
  npm run dev
  
 生产 cross-env  NODE_ENV=prodection 
-npm run build
+ npm run build
 
