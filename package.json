@@ -1,0 +1,33 @@
+{
+  "name": "gulp-tool",
+  "version": "1.0.0",
+  "description": "gulp automate toolkit",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "cross-env NODE_EVN=develpment gulp serve",
+    "build": "cross-env NODE_ENV=production gulp clean && gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.6.3",
+    "@babel/core": "^7.6.3",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "babel": "^6.23.0",
+    "browser-sync": "^2.26.7",
+    "cross-env": "^6.0.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-minimize": "^1.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "uglify-js": "^3.6.1"
+  }
+}
